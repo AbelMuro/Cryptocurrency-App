@@ -36,7 +36,6 @@ function App(){
                 size= {mobile ? "small" : "large"}
             />            
         </main>
-
     )
 }
 

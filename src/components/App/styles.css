@@ -12,6 +12,7 @@ body{
     color: white;
     font-family: "sans narrow";
     grid-column: 1/5;
+    margin-top: 0px;
 }
 .pagination{
     margin: auto;
