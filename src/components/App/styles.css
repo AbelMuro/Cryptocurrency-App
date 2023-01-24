@@ -1,8 +1,18 @@
+@font-face {
+    font-family: "sans narrow";
+    src: url(./../FontFiles/PTSansNarrow-Regular.ttf);
+}
+
 body{
     background-color: rgb(0, 13, 41);
     margin: 0px;
 }
-
+.desc{
+    text-align: center;
+    color: white;
+    font-family: "sans narrow";
+    grid-column: 1/5;
+}
 .pagination{
     margin: auto;
     grid-column: 1/5;

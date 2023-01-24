@@ -20,7 +20,12 @@ function App(){
 
     return(
         <main className="grid">
-            <h1 className="title">Crypto Coins</h1>
+            <h1 className="title">
+                Crypto Coins
+            </h1>
+            <h2 className="desc">
+                This app will display the current price for each crypto coin
+            </h2>
             <CryptoCoins currentPage={currentPage}/>
             <CustomPagination
                 className="pagination"

@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "sans narrow";
-    src: url(./../../FontFiles/PTSansNarrow-Regular.ttf);
-}
+
 .grid{
     width: 660px;
     display: grid;
