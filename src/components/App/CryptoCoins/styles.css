@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "sans narrow";
+    src: url(./../../FontFiles/PTSansNarrow-Regular.ttf);
+}
+.grid{
+    width: 660px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 150px);
+    gap: 20px;
+}
+
+.title{
+    font-family: "sans narrow";
+    color: white;
+    grid-column: 1/5;
+    text-align: center;
+}
+
+.pagination{
+    margin: auto;
+    grid-column: 1/5;
+}
+
+.coin{
+    width: 150px;
+    height: 250px;
+}
+
+.coinTitle{
+    font-family: "sans narrow";
+    text-align:center;
+    color: white
+}
+
+.coinImage{
+    object-fit: contain;
+    width: 100%;
+    transition: transform 0.2s linear;
+}
+
+.coinImage:hover{
+    transform: scale(1.2);
+}
+
+.coinPrice{
+    text-align: center;
+    font-weight: 600;
+    font-family: "sans narrow";
+    color: white;
+}
+
+@media (max-width: 680px){
+    .grid{
+        grid-template-columns: repeat(3, 150px);
+        width: 490px;
+    }
+    .title, .pagination{
+        grid-column: 1/4;
+    }
+}
+
+@media (max-width: 580px){
+    .grid{
+        grid-template-columns: repeat(2, 150px);
+        width: 320px;
+    }
+    .title, .pagination{
+        grid-column: 1/3;
+    }
+}
