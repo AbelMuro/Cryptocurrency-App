@@ -52,7 +52,7 @@
         grid-template-columns: repeat(3, 150px);
         width: 490px;
     }
-    .title, .pagination{
+    .title{
         grid-column: 1/4;
     }
 }
@@ -62,7 +62,7 @@
         grid-template-columns: repeat(2, 150px);
         width: 320px;
     }
-    .title, .pagination{
+    .title{
         grid-column: 1/3;
     }
 }

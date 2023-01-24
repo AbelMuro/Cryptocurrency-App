@@ -19,8 +19,16 @@ body{
     grid-column: 1/5;
 }
 
+
+@media (max-width: 680px){
+    .pagination, .desc{
+        grid-column: 1/4;
+    }
+}
+
 @media (max-width: 580px){
-    .pagination{
+    .pagination, .desc{
         grid-column: 1/3;
     }
 }
+
