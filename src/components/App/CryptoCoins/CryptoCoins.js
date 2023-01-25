@@ -37,5 +37,4 @@ function CryptoCoins({currentPage, getTotalPages}) {
 
     )
 }
-
 export default memo(CryptoCoins);
