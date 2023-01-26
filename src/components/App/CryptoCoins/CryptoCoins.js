@@ -18,6 +18,26 @@ function CryptoCoins({currentPage, getTotalPages}) {
     }, []);
 
 
+//================================= IGNORE ========================================================
+        //find out about cURL
+
+        //authorization key:  pTDGf2VLaR2gzB61mwiibG6zXUV04zWihMUfBWNl
+
+        //curl -X GET "https://api.printful.com/store/products" \ -H 'Authorization: Basic smk_pTDGf2VLaR2gzB61mwiibG6zXUV04zWihMUfBWNl'
+    useEffect(() => {
+        fetch("http://example.com",{
+
+        })
+        .then((response) => {
+            console.log(response);
+            return response.json()
+        })
+        .then((results) => {
+            console.log(results);
+        })
+    })
+//=========================================================================================================================
+
 
     const lastPostIndex = currentPage * postsPerPage.current;
     const firstPostIndex = lastPostIndex - postsPerPage.current;
